@@ -47,17 +47,6 @@ Filtered Dataset:
 
 Several preprocessing steps were performed to improve data quality and analytical clarity:
 
-### Column Reduction
-
-Removed nonessential columns including:
-
-- Geographic coordinates
-- Timezone information
-- Airport codes
-- Descriptive text fields
-- Twilight-related variables
-- Road feature indicators
-
 This reduced dataset complexity and focused the analysis on relevant variables.
 
 ### Missing Data Handling
@@ -161,43 +150,6 @@ Accident distributions differed between intersections with and without traffic s
 ### Day vs. Night Trends
 
 Most accidents occurred during daytime hours, though further analysis could be conducted to compare severity rates between daytime and nighttime incidents.
-
----
-
-## Challenges & Solutions
-
-### Challenge: Large Dataset Size
-
-The original dataset contained more than 7 million records and dozens of variables, making analysis and visualization difficult.
-
-### Solution
-
-The dataset was filtered to North Carolina records and unnecessary columns were removed to improve performance and simplify analysis.
-
----
-
-### Challenge: Numerous Weather Categories
-
-The dataset contained many similar weather descriptions that made visualizations difficult to interpret.
-
-### Solution
-
-Weather conditions were grouped into broader categories such as Clear, Cloudy, Rain, and Snow/Ice to improve readability and analytical consistency.
-
----
-
-## Key Learnings
-
-Through this project I gained experience with:
-
-- Data cleaning and preprocessing
-- Exploratory data analysis
-- Feature engineering
-- Data visualization
-- Large dataset manipulation
-- Pandas DataFrame operations
-- Statistical interpretation of visualizations
-- Communicating analytical findings
 
 ---
 
